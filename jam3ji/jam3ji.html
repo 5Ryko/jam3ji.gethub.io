@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html style="text-align:right">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+
+  float: right;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: Teal;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: Teal;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: right;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="subnav">
+    <button class="subnavbtn">اليوس <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#company">معلومات  </a>
+      <a href="#team">دورات ودروس </a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">اللغات <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#company">اللغة التركية</a>
+      <a href="#team">اللغة الإنجليزية</a>
+      <a href="#careers">دورات ودروس</a>
+    </div>
+
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">المنح <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#company">أنواع المنح</a>
+      <a href="#team">معلومات عن المنحة التركية</a>
+      <a href="#careers">التسجيل على المنحة التركية</a>
+      <a href="#company">التسجيل على المنح الخاصة</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">الجامعات الحكومية <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#company">معلومات </a>
+      <a href="#team">التسجيل  </a>
+    </div>
+  </div>  
+  <div class="subnav">
+    <button class="subnavbtn">الجامعات الخاصة <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#company">معلومات   </a>
+      <a href="#team">التسجيل</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">خدمات ما بعد القبول <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#bring">الخدمات</a>
+      <a href="#deliver">احصل على الخدمة</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">التخصصات الجامعية  <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">معلومات  </a>
+      <a href="#link2">اختبار التخصص الانسب</a>
+      <a href="#link3">ختيار التخصص</a>
+    </div>
+  </div>
+</div>
+
+<div style="padding:0 16px">
+</div>
+
+</body>
+<a href="jam3ji.html"><img  width="200" src="img's/Instagram.png"></a>
+<main>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+.container1 {
+  position: relative;
+  left: 150px;
+   top: 149px;
+  bottom: 0;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay1 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p></p>
+
+<div class="container1">
+  <a href="#link4">
+  <img src="img's/imga-vatar.png" alt="Avatar" class="image1">
+  <div class="overlay1">الجامعات الحكومية</div>
+</div>
+</a>
+</body>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+.container2 {
+  position: relative;
+  left: 550px;
+   top: -170px;
+  bottom: 0;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p></p>
+
+<div class="container2">
+  <a href="#link4">
+  <img src="img's/imga-vatar.png" alt="Avatar" class="image2">
+  <div class="overlay2">الجامعات الخاصة</div>
+</div>
+</a>
+</body>
+
+
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+.container3 {
+  position: relative;
+  left: 950px;
+   top: -489px;
+  bottom: 0;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay3 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p></p>
+
+<div class="container3">
+  <a href="#link4">
+  <img src="img's/imga-vatar.png" alt="Avatar" class="image3">
+  <div class="overlay3">الإقامة الطلابية</div>
+</div>
+</a>
+</body>
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+.container4 {
+  position: relative;
+  left: 1350px;
+   top: -806px;
+  bottom: 0;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image4 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay4 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container4:hover .overlay4 {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p></p>
+
+<div class="container4">
+  <a href="#link4">
+  <img src="img's/imga-vatar.png" alt="Avatar" class="image4">
+  <div class="overlay4">ترجمة الوثائق وتصديقها</div>
+</div>
+</a>
+</body>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+.container5 {
+  position: relative;
+  left: 350px;
+   top: -800px;
+  bottom: 0;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image5 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay5 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container5:hover .overlay5 {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p></p>
+
+<div class="container5">
+  <a href="#link4">
+  <img src="img's/imga-vatar.png" alt="Avatar" class="image5">
+  <div class="overlay5">معادلة الشهادات</div>
+</div>
+</a>
+</body>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+.container6 {
+  position: relative;
+  left: 767px;
+   top: -1117px;
+  bottom: 0;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image6 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay6 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container6:hover .overlay6 {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p></p>
+
+<div class="container6">
+  <a href="#link4">
+  <img src="img's/imga-vatar.png" alt="Avatar" class="image6">
+  <div class="overlay6">دورات اليوس</div>
+</div>
+</a>
+</body>
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+.container7 {
+  position: relative;
+  left: 1175px;
+   top: -1437px;
+  bottom: 0;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image7 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay7 {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container7:hover .overlay7 {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p></p>
+
+<div class="container7">
+  <a href="#link4">
+  <img src="img's/imga-vatar.png" alt="Avatar" class="image7">
+  <div class="overlay7">دورات اللغات</div>
+</div>
+</a>
+</body>
+
+
+</main>
+<footer> 
+  
+  <hr/>
+
+   <h1>connect us:</h1>
+    <section>
+
+      <a href=" https://wa.me/905522002229" target="_blank">
+      <img width="50" src ="img's/whatsapp.png" alt="Team's whatsapp"/>
+        </a>
+
+        <a href="#" target="_blank">
+      <img width="50" src ="img's/Gmail.png" alt="Team's Gmail"/>
+    </a>
+  </section>
+  <section>
+      <a href="https://www.instagram.com/jam3ji/?hl=en" target="_blank">
+      <img width="70" src ="img's/instagram logo.png" alt="Team's Instagram page"/>
+    </a> 
+
+    <a href="https://www.facebook.com/jam3ji/" target="_blank">
+      <img width="55" src ="img's/facebook.webp" alt="Team's facebook page"/>
+    </a>
+    <a href="https://twitter.com/jam3ji?lang=en" target="_blank">
+      <img width="50" src ="img's/twitter.png" alt="Team's twitter page"/>
+     </a>
+
+      <a href=" https://t.me/jam3ji/" target="_blank">
+      <img width="45" src ="img's/Telegram.png" alt="Team's Telegram page"/>
+    </a>
+
+    </section>
+    <section>
+        <p><h1>connect the developer:</h1> </p>
+    <section>
+         <a href="https://www.instagram.com/5ryko/" target="_blank"> 
+        <img width="50" src ="img's/instagram logo dev..png" alt=" developer's Instagram page"/></a>
+          <a href="https://twitter.com/5ryko" target="_blank"> 
+        <img width="50" src ="img's/Twitter logo dev..png" alt=" developer's Twitter  page"/></a>
+    </section>
+    <p></p>
+           
+</footer>
+</html>
+
